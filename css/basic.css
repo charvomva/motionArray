@@ -27,7 +27,7 @@ section {padding: 0 0 70px 0;}
 .section01 button:hover {background:#534cda; opacity:.8; border: 1px solid transparent;}
 
 
-.vid_w video{border: 1px solid green; width:650px; position:absolute; top:100px; right:0;}
+.vid_w video{ width:50vw; position:absolute; top:100px; right:0; transform: translateX(30px);}
 
 
 
