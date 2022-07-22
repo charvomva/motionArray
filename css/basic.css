@@ -22,6 +22,8 @@ section {padding: 0 0 70px 0;}
 .section01_text { font-size:50px; font-weight:700; font-family: 'Cairo';}
 .text_sub {}
 
+.section01 button {background:#534cda; ;}
+.section01 button:hover {}
 
 
 
