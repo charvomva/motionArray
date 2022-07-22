@@ -29,6 +29,8 @@ section {padding: 0 0 70px 0;}
 
 .vid_w video{ width:50vw; position:absolute; top:100px; right:0; transform: translateX(30px);}
 
+.content02 {z-index: 10; transform: translateY(-160px);}
+.content02 h1 {font-family: 'Cairo'; font-weight: 700;}
 
 
 
