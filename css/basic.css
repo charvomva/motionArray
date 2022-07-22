@@ -23,7 +23,7 @@ section {padding: 0 0 70px 0;}
 .text_sub {}
 
 .section01 button {background:#534cda; ;}
-.section01 button:hover {}
+.section01 button:hover {background:#534cda; opacity:.8; border: 1px solid transparent;}
 
 
 
