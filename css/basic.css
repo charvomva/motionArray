@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+*{ margin:0; padding:0; box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none;}
+img {vertical-align: middle; max-width:100%;}
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+header {}
+.navbar {font-size:14px; font-family:'Cairo'; font-weight:600; background-color: #534cda;}
+.signLog {transform: translate(-10px,-50%);}
+.navbar_center {white-space: nowrap;}
+.navbar i {color:#fff;}
+.navbar a {color:#fff;}
+
+/*  section01  */
+
+.section01_bg {}
+
+
+section{}
+
+
+
+
+
+footer {padding:40px 0 70px;}
+
+.sns{}
+
+
+/* 1440px 이상 */
+@media (min-width:1440px){
+    header {}
+
+}
+
+/* 991px 미만 */
+@media (min-width:991px){
+    header { }
+
+}
+
+/* 992px 이상(lg) */
+@media (min-width:992px){
+
+}
+
+/* 1200px 이상(xl) */
+@media (min-width:1200px){
+
+}
+
+/* 1400px 이상(xxl) */
+@media (min-width:1400px){
+}
