@@ -47,7 +47,7 @@ section {padding: 0 0 70px 0; overflow-x: hidden;}
 
 footer {padding:40px 0 70px; position:relative; overflow-x: hidden;}
 
-footer > .line {position:absolute; display:block; bottom:20px; width:100px; height:2px; background:#fff; }
+footer > .line {position:absolute; display:block; bottom:10px; width:100px; height:2px; background:#fff; }
 
 .copyright_text {position:absolute; bottom:15px; margin:auto; overflow-x: hidden;}
 footer > div > p {font-size:12px;}
@@ -64,6 +64,7 @@ footer > div > p {font-size:12px;}
 /* 991px 미만 */
 @media (min-width:991px){
     header { }
+    .pc {display:block;}
 
 }
 
