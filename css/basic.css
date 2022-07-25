@@ -6,6 +6,7 @@ li {list-style: none;}
 a {text-decoration: none;}
 img {vertical-align: middle; max-width:100%;}
 body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.pc {display:none;}
 
 header {}
 .navbar { font-size:14px; font-family:'Cairo'; font-weight:600; background-color: #534cda; position:relative; }
@@ -73,6 +74,7 @@ footer > div > p {font-size:12px;}
 
 /* 1200px 이상(xl) */
 @media (min-width:1200px){
+    .pc {display:block;}
 
 }
 
