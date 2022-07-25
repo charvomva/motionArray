@@ -8,11 +8,15 @@ img {vertical-align: middle; max-width:100%;}
 body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 header {}
-.navbar { font-size:14px; font-family:'Cairo'; font-weight:600; background-color: #534cda; }
+.navbar { font-size:14px; font-family:'Cairo'; font-weight:600; background-color: #534cda; position:relative; }
 .signLog {transform: translate(-10px,-50%);}
 .navbar_center {white-space: nowrap;}
 .navbar i {color:#fff;}
 .navbar a {color:#fff;}
+
+
+.navbar_shadow {display:none; width:100%; height:45px; background: #111; position:absolute; top:55px;}
+
 
 /*  section01  */
 
@@ -34,7 +38,7 @@ section {padding: 0 0 70px 0;}
 
 
 
-
+.review_img img { border: 1px solid red;}
 
 footer {padding:40px 0 70px;}
 
