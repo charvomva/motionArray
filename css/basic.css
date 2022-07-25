@@ -6,7 +6,7 @@ li {list-style: none;}
 a {text-decoration: none;}
 img {vertical-align: middle; max-width:100%;}
 body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.pc {display:none;}
+
 
 header {}
 .navbar { font-size:14px; font-family:'Cairo'; font-weight:600; background-color: #534cda; position:relative; }
@@ -46,9 +46,8 @@ section {padding: 0 0 70px 0; overflow-x: hidden;}
 .content03_review button a {text-decoration: none; color:#fff;}
 
 footer {padding:40px 0 70px; position:relative; overflow-x: hidden;}
-
-footer > .line {position:absolute; display:block; bottom:10px; width:100px; height:2px; background:#fff; }
-
+footer > .line {position:absolute;  bottom:10px; width:100px; height:3px; background:red; }
+footer > .logo_white > img { border: 1px solid red}
 .copyright_text {position:absolute; bottom:15px; margin:auto; overflow-x: hidden;}
 footer > div > p {font-size:12px;}
 
@@ -64,12 +63,13 @@ footer > div > p {font-size:12px;}
 /* 991px 미만 */
 @media (min-width:991px){
     header { }
-    .pc {display:block;}
+    footer  .pc {display:block;}
 
 }
 
 /* 992px 이상(lg) */
 @media (min-width:992px){
+   
 
 }
 
