@@ -20,7 +20,7 @@ section {padding: 0 0 70px 0;}
 
 .section01 { }
 .section01_text_w {position:absolute; top:100px;}
-.section01_text { font-size:50px; font-weight:700; font-family: 'Cairo';}
+.section01_text { font-size:4vw; font-weight:700; font-family: 'Cairo'; color:red;}
 .text_sub {}
 
 .section01 button {background:#534cda; ;}
