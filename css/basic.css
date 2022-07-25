@@ -27,7 +27,7 @@ section {padding: 0 0 70px 0;}
 .section01_text { font-size:4vw; font-weight:700; font-family: 'Cairo'; color:red;}
 .text_sub {}
 
-.section01 button {background:#534cda; ;}
+.section01 button, .content03_review button {background:#534cda;}
 .section01 button:hover {background:#534cda; opacity:.8; border: 1px solid transparent;}
 
 
@@ -39,6 +39,8 @@ section {padding: 0 0 70px 0;}
 
 .content03_review h1 {font-family: 'Cairo'; font-size:45px; font-weight: 700;}
 .review_img img { }
+
+.content03_review button a {text-decoration: none; color:#fff;}
 
 footer {padding:40px 0 70px;}
 
