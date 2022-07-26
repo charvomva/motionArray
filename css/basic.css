@@ -36,7 +36,7 @@ section {padding: 0 0 70px 0; overflow-x: hidden;}
 
 .content02 {z-index: 10; transform: translateY(-160px);}
 .content02 h1 {font-family: 'Cairo'; font-weight: 700;}
-
+.content02 p .sm_space {display:none;}
 
 .carousel >.carousel-control-prev, .carousel-control-next {background: transparent;}
 
@@ -48,9 +48,10 @@ section {padding: 0 0 70px 0; overflow-x: hidden;}
 
 .content03_review button a {text-decoration: none; color:#fff;}
 
+
 .outro {}
 .outro > div > h1 { font-family:'Cairo'; font-weight:700;}
-
+.accordion {width:630px;}
 
 footer {padding:40px 0 70px; position:relative; overflow-x: hidden;}
 footer > .line {position:absolute;  bottom:10px; width:100px; height:3px; background:red; }
@@ -61,31 +62,29 @@ footer > div > p {font-size:12px;}
 .sns{}
 .sns ul {float:light;}
 
-/* 1440px 이상 */
-@media (min-width:1440px){
-    header {}
-
-}
-
-/* 991px 미만 */
-@media (min-width:991px){
+/* 576px 미만 */
+@media (max-width:576px){
     header { }
-    footer  .pc {display:block;}
+    .section01_text p {font-size: 30px; text-shadow: 0 2px 9px #111; }
+    .section01 > .vid_w > video {display:none;}
+    .section01_text_w  {transform: translateY(50px);}
 
-}
+    .section01_text_w .text_sub {display: none;}
 
-/* 992px 이상(lg) */
-@media (min-width:992px){
-   
+    .content02 {transform: translateY(40px);}
+    .content02 p .sm_space {display:block;}
+    .content02 p .text_hidden {display:none;}
 
-}
+    .content03_review {}
+    .content03_review img {display:none;}
+    .content03_review > div {margin:auto ; padding:0 !important; width:100% !important;}
 
-/* 1200px 이상(xl) */
-@media (min-width:1200px){
-    .pc {display:block;}
+    .content03_review button {margin-bottom:1rem;}
 
-}
+    .outro {}
+    .outro .accordion {width:480px !important;}
 
-/* 1400px 이상(xxl) */
-@media (min-width:1400px){
+    footer .sns > ul {display:none !important;}
+    footer .logo_white {display:none;}
+
 }
